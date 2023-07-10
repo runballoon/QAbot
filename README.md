@@ -6,13 +6,15 @@ MacOS
 Please open Terminal on MacOS for the following steps.
 
 # Installation before running
-
+```
+git clone https://github.com/runballoon/QAbot.git
+```
 ```
 pip install Flask
 pip install farm-haystack[inference]
 ```
 
-# How to run on local devices
+# Run on local devices
 ```
 python main.py
 ```
