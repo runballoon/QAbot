@@ -22,7 +22,6 @@ After the model is successfully loaded, there will be prompt "Running on http://
 Please open a browser and go to http://127.0.0.1:5000/.
 
 Successfully run program should look like this:
-![](screenshot-qabot.png?raw=true "Optional Title")
 <img src="screenshot-qabot.png" width="600">
 
 # Issues
