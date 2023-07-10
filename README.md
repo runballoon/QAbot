@@ -13,4 +13,4 @@ python main.py
 ```
 
 # Issues
-When get prompts like "I'm sorry, but I don't understand what you mean. Can you please rephrase your question?", it's likely that the model is not run correctly. Please restart the process again.
+When get prompts like "I'm sorry, but I don't understand what you mean. Can you please rephrase your question?", it's likely that the model is not run correctly. Please exit the current server and run the program again.
