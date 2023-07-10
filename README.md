@@ -19,7 +19,8 @@ pip install farm-haystack[inference]
 python main.py
 ```
 After the model is successfully loaded, there will be prompt "Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)".
-Please open a browser and go to http://127.0.0.1:5000/
+Please open a browser and go to http://127.0.0.1:5000/.
+
 Successfully run program should look like this:
 ![Alt text](screenshot-qabot.png?raw=true "Optional Title")
 
