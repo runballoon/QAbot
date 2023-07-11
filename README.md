@@ -7,14 +7,17 @@ Please open Terminal on MacOS for the following steps.
 
 # Installation before running
 ```
-git clone https://github.com/runballoon/QAbot.git
-```
-```
 pip install Flask
 pip install farm-haystack[inference]
 ```
 
 # Run on local devices
+```
+git clone https://github.com/runballoon/QAbot.git
+```
+```
+cd QAbot
+```
 ```
 python main.py
 ```
