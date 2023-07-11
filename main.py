@@ -1,3 +1,5 @@
+print("Loading bot model...")
+
 import os
 from flask import Flask, render_template, request
 
@@ -5,7 +7,6 @@ from haystack.nodes import PromptNode
 from haystack.agents.memory import ConversationSummaryMemory
 from haystack.agents.conversational import ConversationalAgent
 
-print("Loading bot model...")
 # initialze haystack model and flask framework
 app = Flask(__name__)
 hugging_face_api="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"
@@ -23,10 +24,10 @@ def sessions():
     return render_template('session.html')
 
 @app.route("/get")
-def get_bot_response():    
-    userText = request.args.get('msg')    
+def get_bot_response():
+    userText = request.args.get('msg')
     response = conversational_agent.run(userText)
     return response['transcript']
 
-if __name__ == "__main__":    
+if __name__ == "__main__":
     app.run()
